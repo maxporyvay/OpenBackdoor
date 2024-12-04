@@ -11,3 +11,4 @@ strsimpy
 hdbscan
 language-tool-python
 matplotlib
+stanza

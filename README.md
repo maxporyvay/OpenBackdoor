@@ -36,14 +36,6 @@ cd OpenBackdoor
 python setup.py install
 ```
 
-## Download Datasets
-OpenBackdoor supports multiple tasks and datasets. You can download the datasets for each task with bash scripts. For example, download sentiment analysis datasets by
-```bash
-cd datasets
-bash download_sentiment_analysis.sh
-cd ..
-```
-
 ## Usage
 
 OpenBackdoor offers easy-to-use APIs for users to launch attacks and defense in several lines. The below code blocks present examples of built-in attack and defense. 

@@ -9,6 +9,7 @@ from .trojanlm_poisoner import TrojanLMPoisoner
 from .neuba_poisoner import NeuBAPoisoner
 from .por_poisoner import PORPoisoner
 from .lwp_poisoner import LWPPoisoner
+from .orderbkd_poisoner import OrderbkdPoisoner
 
 POISONERS = {
     "base": Poisoner,
@@ -21,7 +22,8 @@ POISONERS = {
     "trojanlm": TrojanLMPoisoner,
     "neuba": NeuBAPoisoner,
     "por": PORPoisoner,
-    "lwp": LWPPoisoner
+    "lwp": LWPPoisoner,
+    "orderbkd": OrderbkdPoisoner
 }
 
 def load_poisoner(config):

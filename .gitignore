@@ -3,8 +3,6 @@
 logs/*
 experiments/logs
 !logs/.gitkeep
-datasets/* 
-!datasets/*.sh
 poison_data/*
 models/*
 .vscode/
@@ -21,7 +19,7 @@ log.txt
 examples/
 hyperopt/
 *.ckpt
-datasets/SentimentAnalysis
+datasets/SentimentAnalysis/imdb/
 
 data
 poison_data
